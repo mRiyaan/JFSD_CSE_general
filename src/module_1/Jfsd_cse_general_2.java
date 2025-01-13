@@ -1,3 +1,5 @@
+package module_1;
+
 import java.util.Scanner;
 public class Jfsd_cse_general_2 {
     public static void main (String[] args){
