@@ -1,8 +1,5 @@
-package module_1;
-
 import java.util.Scanner;
 import java.util.Arrays;
-
 public class Jfsd_cse_general_collections {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
