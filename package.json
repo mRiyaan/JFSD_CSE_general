@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-notes-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm start --prefix client\"",
+    "server": "node server/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  }
+}
