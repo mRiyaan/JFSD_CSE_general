@@ -7,12 +7,12 @@ const app = express();
 
 // Configure CORS
 const corsOptions = {
-  origin: 'http://localhost:3000',  // Allow only frontend (React) requests from localhost:3000
+  origin: 'http://localhost:3000', // requests from localhost:3000
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
 };
 
-app.use(cors(corsOptions));  // Apply the CORS middleware with the specified options
+app.use(cors(corsOptions));
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI, {
